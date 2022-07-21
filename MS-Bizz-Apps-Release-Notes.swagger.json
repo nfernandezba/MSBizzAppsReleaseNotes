@@ -1,0 +1,224 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "MS Bizz Apps Release Notes",
+    "description": "Do you want to create your own app and flows using the MS Bizz Apps release notes? Now you can.",
+    "version": "1.0"
+  },
+  "host": "experience.dynamics.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/allreleaseplans/": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "type"
+                },
+                "properties": {
+                  "type": "object",
+                  "properties": {
+                    "morerecords": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "type"
+                        }
+                      },
+                      "description": "morerecords"
+                    },
+                    "paging-cookie-encoded": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "type"
+                        }
+                      },
+                      "description": "paging-cookie-encoded"
+                    },
+                    "totalrecords": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "type"
+                        }
+                      },
+                      "description": "totalrecords"
+                    },
+                    "page": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "type"
+                        }
+                      },
+                      "description": "page"
+                    },
+                    "results": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "description": "type"
+                        },
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "type": {
+                              "type": "string",
+                              "description": "type"
+                            },
+                            "properties": {
+                              "type": "object",
+                              "properties": {
+                                "Product name": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Product name"
+                                },
+                                "Feature name": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Feature name"
+                                },
+                                "Investment area": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Investment area"
+                                },
+                                "Business value": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Business value"
+                                },
+                                "Feature details": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Feature details"
+                                },
+                                "Enabled for": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Enabled for"
+                                },
+                                "Early access date": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Early access date"
+                                },
+                                "Public preview date": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Public preview date"
+                                },
+                                "GA date": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "GA date"
+                                },
+                                "Release wave": {
+                                  "type": "object",
+                                  "properties": {
+                                    "type": {
+                                      "type": "string",
+                                      "description": "type"
+                                    }
+                                  },
+                                  "description": "Release wave"
+                                }
+                              },
+                              "description": "properties"
+                            },
+                            "required": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "description": "required"
+                            }
+                          },
+                          "description": "items"
+                        }
+                      },
+                      "description": "results"
+                    }
+                  },
+                  "description": "properties"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Release Notes",
+        "description": "Get Release Notes",
+        "operationId": "GetReleaseNotes",
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {},
+  "security": [],
+  "tags": []
+}
